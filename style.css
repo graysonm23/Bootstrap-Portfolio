@@ -87,11 +87,57 @@ body {
   width: auto;
 }
 /* styling text-boxes over my images on potfolio.html*/
-figcaption {
+figure {
+  position: relative;
+}
+.text-rutgers,
+.text-hangman,
+.text-rps,
+.text-rpg,
+.text-trivia {
   position: absolute;
-  bottom: 0;
-  padding: 10px 20px;
-  text-align: center;
+  display: inline;
+  background-color: #4aaaa5;
+}
+
+.text-rutgers {
+  width: auto;
+  border-radius: 5px;
+  z-index: 1;
+  top: 175px;
+  left: 15px;
+}
+
+.text-rps {
+  width: auto;
+  border-radius: 5px;
+  z-index: 2;
+  top: 175px;
+  left: 230px;
+}
+
+.text-rpg {
+  width: auto;
+  border-radius: 5px;
+  z-index: 1;
+  top: 175px;
+  left: 495px;
+}
+
+.text-hangman {
+  width: auto;
+  border-radius: 5px;
+  z-index: 2;
+  top: 390px;
+  left: 280px;
+}
+
+.text-trivia {
+  width: auto;
+  border-radius: 5px;
+  z-index: 2;
+  top: 390px;
+  left: 60px;
 }
 /*^^^^^^ styling text-boxes over my images on portfolio.html^^^^^*/
 /* styling images on portfolio.html */
@@ -114,6 +160,7 @@ figcaption {
 }
 /* footer fixed at the bottom of the page css */
 .footer {
+  z-index: 5;
   border-top: 8px solid #4aaaa5;
   position: fixed;
   left: 0;
@@ -127,6 +174,7 @@ figcaption {
 }
 
 .card-footer {
+  z-index: 5;
   border-top: 8px solid #4aaaa5;
   position: fixed;
   left: 0;
