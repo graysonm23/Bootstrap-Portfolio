@@ -1,3 +1,150 @@
 .navbar-brand {
   background-color: #4aaaa5;
 }
+.btn-primary {
+  background-color: #4aaaa5;
+}
+form {
+  display: grid;
+}
+#navWrapper {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#name,
+#email,
+#subject,
+#message {
+  width: 110%;
+}
+
+body {
+  background-image: url(images/email-pattern.png);
+  width: 100%;
+  min-height: 200%;
+  padding-top: 20px;
+}
+
+#message {
+  height: 150px;
+}
+
+.submit {
+  border: none;
+  background: #4aaaa5;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.navbar {
+  text-align: center;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d3d3d3;
+  margin-left: auto;
+}
+
+#main {
+  width: 100%;
+  min-height: 200%;
+  padding-top: 20px;
+}
+
+.mainbody {
+  margin-top: 50px;
+}
+
+.col-md-8 {
+  border: 1px solid lightgrey;
+  background-color: white;
+  width: 960px;
+  margin: auto;
+  min-height: 800px;
+  padding-bottom: 5%;
+}
+
+.title {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  color: #4aaaa5;
+  font-size: 156%;
+  font-weight: bold;
+  margin: auto;
+  padding: 3%;
+}
+
+#myImages {
+  position: relative;
+  width: auto;
+}
+/* styling text-boxes over my images on potfolio.html*/
+figcaption {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 20px;
+  text-align: center;
+}
+/*^^^^^^ styling text-boxes over my images on portfolio.html^^^^^*/
+/* styling images on portfolio.html */
+.image {
+  float: left;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  border-radius: 30px;
+}
+/*^^^ styling images on portfolio.html ^^^*/
+/* clear fix */
+.clear {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* footer fixed at the bottom of the page css */
+.footer {
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #666666;
+  color: white;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.card-footer {
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #666666;
+  color: white;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-left: 29%;
+}
