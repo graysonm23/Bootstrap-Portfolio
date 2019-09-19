@@ -82,76 +82,38 @@ body {
   padding: 3%;
 }
 
-#myImages {
-  position: relative;
-  width: auto;
+/* styling my images on portfolio.html*/
+.mygames {
+  display: flex;
+  flex-flow: row wrap;
 }
-/* styling text-boxes over my images on potfolio.html*/
-figure {
+
+.game {
+  box-sizing: border-box;
+  flex: 0 1 33.333%;
   position: relative;
+  min-height: 30vh;
 }
-.text-rutgers,
-.text-hangman,
-.text-rps,
-.text-rpg,
-.text-trivia {
+.game .image {
   position: absolute;
-  display: inline;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.game .text {
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+}
+.game span {
   background-color: #4aaaa5;
-}
-
-.text-rutgers {
-  width: auto;
+  /* border-width: 100%; */
   border-radius: 5px;
-  z-index: 1;
-  top: 175px;
-  left: 15px;
 }
-
-.text-rps {
-  width: auto;
-  border-radius: 5px;
-  z-index: 2;
-  top: 175px;
-  left: 230px;
-}
-
-.text-rpg {
-  width: auto;
-  border-radius: 5px;
-  z-index: 1;
-  top: 175px;
-  left: 495px;
-}
-
-.text-hangman {
-  width: auto;
-  border-radius: 5px;
-  z-index: 2;
-  top: 390px;
-  left: 280px;
-}
-
-.text-trivia {
-  width: auto;
-  border-radius: 5px;
-  z-index: 2;
-  top: 390px;
-  left: 60px;
-}
-/*^^^^^^ styling text-boxes over my images on portfolio.html^^^^^*/
-/* styling images on portfolio.html */
-.image {
-  float: left;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1%;
-  border-radius: 30px;
-}
-/*^^^ styling images on portfolio.html ^^^*/
+/* styling my images on portfolio.html */
 /* clear fix */
 .clear {
   content: "";
